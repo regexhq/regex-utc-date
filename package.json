@@ -6,16 +6,16 @@
   "scripts": {
     "test": "make test"
   },
-  "repository": "yoshuawuyts/regex-utc-date",
+  "repository": "regexps/regex-utc-date",
   "keywords": [
-    "regex",
-    "utc",
-    "regexp",
     "date",
-    "time"
+    "regular expression",
+    "regex",
+    "regexp",
+    "time",
+    "utc"
   ],
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "istanbul": "^0.3.5",
     "make-lint": "^1.0.1",
