@@ -7,15 +7,17 @@
 Regular expression for UTC date.
 
 ## Installation
+
 ```bash
 npm install regex-utc-date
 ```
 
 ## Usage
+
 ```js
 var regex = require('regex-utc-date');
 
-regex.test('Sun, 07 Dec 2014 09:44:50 GMT');
+regex().test('Sun, 07 Dec 2014 09:44:50 GMT');
 // => true
 ```
 
