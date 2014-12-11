@@ -19,11 +19,23 @@ var regex = require('regex-utc-date');
 
 regex().test('Sun, 07 Dec 2014 09:44:50 GMT');
 // => true
+
+var match = regex().exec('Sun, 07 Dec 2014 09:44:50 GMT');
+match[0] // => 'Sun, 07 Dec 2014 09:44:50 GMT'
+match[1] // => 'Sun'
+match[2] // => '07'
+match[3] // => 'Dec'
+match[4] // => '2014'
+match[5] // => '09:44:50'
+match[6] // => '09'
+match[7] // => '44'
+match[8] // => '50'
 ```
 
 ## Contributors
 - [Yoshua Wuyts](https://github.com/yoshuawuyts)
 - [Hugh Kennedy](https://github.com/hughsk)
+- [Jon Schlinkert](https://github.com/jonschlinkert)
 
 ## See Also
 - [Date.prototype.toUTCString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString)
