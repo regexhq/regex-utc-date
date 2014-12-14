@@ -39,6 +39,7 @@ match[8] // => '50'
 
 ## See Also
 - [Date.prototype.toUTCString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString)
+-- [regex-iso-date](https://github.com/regexps/regex-iso-date)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
