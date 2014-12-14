@@ -1,6 +1,6 @@
 {
   "name": "regex-utc-date",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Regular expression for UTC date",
   "main": "index.js",
   "scripts": {
