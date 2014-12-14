@@ -8,5 +8,5 @@
  */
 
 module.exports = function() {
-  return /\w{3}, \d{2} \w{3} \d{4} \d{2}:\d{2}:\d{2} GMT/;
+  return /(\w{3}), (\d{2}) (\w{3}) (\d{4}) ((\d{2}):(\d{2}):(\d{2})) GMT/;
 };
